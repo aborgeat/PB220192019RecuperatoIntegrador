@@ -13,6 +13,9 @@ public class LigaFutbol {
 	public LigaFutbol (String nombre) {
 		
 	}
+	public Boolean agregarEquipo (Equipo equipo) {
+		return null;
+	}
 	
 	public Boolean agregarPesona (String nombreEquipo,  Persona Persona) throws plantelExcedidoExeption, faltaPresupuestoException, EquipoNoEncontradoException {
 	
@@ -43,8 +46,4 @@ public class LigaFutbol {
 	 * 
 	 */
 	
-	public TreeSet<Persona> obtenerPlantelPorNumeroDeCamiseta(Comparator orden){
-	
-	return null;
-	}
 }

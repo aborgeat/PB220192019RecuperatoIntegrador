@@ -1,7 +1,9 @@
 package enunciado;
 
+import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
+import java.util.TreeSet;
 
 public class Equipo {
 	private String nombre; 
@@ -38,7 +40,11 @@ public class Equipo {
 	}
 	
 	
+
+	public TreeSet<Persona> obtenerPlantelPorNumeroDeCamiseta(Comparator orden){
 	
+	return null;
+	}
 
 	public String getNombre() {
 		return nombre;
